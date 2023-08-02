@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+
+<body>
+    <heder>
+        <h1>Inicio de sesión</h1>
+        <p>Irure reprehenderit do adipisicing enim do id magna consectetur.</p>
+    </heder>
+
+    <form action="principal.html" method="POST" onsubmit="validarLogin(event)">
+        <label for="username">Usuario:</label>
+        <input id='username' type="text" name="username" required>
+
+        <label for="password">Contraseña:</label>
+        <input id='password' type="password" name="password" required>
+
+        <button type="submit">Inciar</button>
+    </form>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
