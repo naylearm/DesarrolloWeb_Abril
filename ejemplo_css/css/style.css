@@ -1,0 +1,60 @@
+.tarjeta{
+    border: solid 2px rgb(233, 71, 71);
+    border-radius: 50px;
+    width:30%;
+    overflow: hidden;
+    margin: 0px 5px;
+
+}
+
+.tarjeta>h1{
+    color: rgb(233, 71, 71);
+    text-align: center;
+}
+
+.tarjeta img{
+    width: 100%;
+    opacity: 0.5;
+}
+
+img:hover{
+    opacity: 1;
+}
+
+.tarjeta p{
+    padding: 0px 15px;
+    color: rgb(47, 47, 47);
+    text-align: justify;
+}
+
+.m-0{
+    /*      m-v  m-h */
+    margin: 0px 0px;
+}
+
+
+button{
+    border: solid 1px grey;
+    border-radius: 15px;
+}
+
+.boton{
+    color: white;
+    background-color: rgb(233, 71, 71);
+}
+
+.boton:hover{
+    color:rgb(233, 71, 71);
+    background-color: white;
+    font-weight: bolder;
+}
+
+#contendor-boton{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.contenedor-tarjetas{
+    display: flex;
+    justify-content: space-between;
+}
