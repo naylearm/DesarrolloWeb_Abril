@@ -7,36 +7,140 @@
     <title>Entregable final Tienda</title>
     <style>
         body {
-            padding: 0px 50px;
+            font-family: sans-serif;
+            padding: 150px;
         }
 
         .maya {
             width: 35px;
         }
 
-        .navegador {
-            padding: 0px 50px;
+        a {
+            text-decoration: none;
+            color: darkgreen;
+            margin-right: 15px;
+        }
+
+        a:hover {
+            color: rgb(1, 192, 1);
+        }
+
+        .navegador{
             display: flex;
             justify-content: space-between;
+            padding: 0px 30px; 
         }
+
+        .tamanio{
+            height: 30vw;
+            width: 100%;
+        }
+
+        .b1 {
+            background-color: rgb(1, 82, 1);
+            color: white;
+            text-align: center;
+            font-size: 25px;
+        }
+
+        .b2 {
+            display: flex;
+            background-color: red;
+            color: white;
+            text-align: center;
+            font-size: 30px;
+            text-align: center; 
+        }
+
+        button {
+            border-radius: 10px;
+            font-size: small;
+            padding: 3px;
+            width: 120px;
+            font-weight: bold;
+            background-color: white;
+            margin-left: 10px;
+        }
+
+        button:hover{
+            color: white;
+            background-color: black;
+        }
+
+        .redbutton{
+            color: white;
+            background-color: red;
+            border-color: white;
+        }
+
+        .cincuenta{
+            width: 50%;
+        }
+
+        .b1,.b2{
+            margin-bottom: 20px;
+        }
+
     </style>
 </head>
 
 <body>
-    <nav class="navegador">
-        <div>
-            <a href="">
-                <img class="maya" src="img/pngwing.com.png" alt="icono maya">
-            </a>
-            <a href="#ARTE">ARTE</a>
-            <a href="#COLECCIONES">COLECCIONES</a>
-            <a href="#CONÓCENOS">CONÓCENOS</a>
-        </div>
-        <div>
-            <button>Iniciar sesión</button>
-            <button>Regístrate</button>
-        </div>
+    <section>
+        <nav class="navegador">
+            <div>
+                <a href="">
+                    <img class="maya" src="img/pngwing.com.png" alt="icono maya">
+                </a>
+                <a href="#ARTE">ARTE</a>
+                <a href="#COLECCIONES">COLECCIONES</a>
+                <a href="#CONÓCENOS">CONÓCENOS</a>
+            </div>
+            <div class="boton">
+                <button>Iniciar sesión</button>
+                <button>Regístrate</button>
+            </div>
+        </nav>
+    </section>
+    <section class="b1 tamanio">
+        <h1>UNA EXPERIENCIA TOTALMENTE NUEVA EN EL ARTE</h1>
+        <br>
+        <p>Una tradición milenaria nos ha acompañado a través de todo este tiempo.</p>
+        <a href="#Aprendemas">Aprende más...</a>
+    </section>
+    <section>
+        <div class="b2 tamanio">
+            <img class="cincuenta" src="https://d36tnp772eyphs.cloudfront.net/blogs/2/2019/02/alebrijes-en-oaxaca-940x626.jpg" alt="">
+            <div class="cincuenta">
+                <p>ALEBRIJES MEXICANOS</p>
+                <br>
+                <p>Tallados en madera cumplen con las más altas exigencias en diseño.</p>
+                <br>
+                <button class="redbutton">Haz tu pedido</button>
+            </div>
+            <section>
+
+            </section>
+    </section>
+    <section>
+        <div class="b2 tamanio">
+            <div class="cincuenta">
+                <p>CREATIVIDAD E IMAGINACIÓN</p>
+                <br>
+                <p>Un sueño hecho realidad.</p>
+                <br>
+                <button class="redbutton">Haz tu pedido</button>
+            </div>
+            <img class="cincuenta" src="https://jacoboymariaangeles.com/wp-content/uploads/2022/10/NOMADAS-1.jpg" alt="">
+    </section>
+    <nav>
+        <img src="img/icons8-whatsapp.svg" alt="">
+        <img src="img/icons8-facebook.svg" alt="">
+        <img src="img/icons8-twitter.svg" alt="">
+        <img src="img/icons8-instagram.svg" alt="">
+        <img src="img/icons8-youtube-play.svg" alt="">
+        <img src="img/icons8-tiktok.svg" alt="">
     </nav>
+    <p>© 2022 Todos los derechos reservados al arte popular.</p>
 
 </body>
 
