@@ -1,0 +1,86 @@
+body {
+    font-family: sans-serif;
+    padding: 150px;
+}
+
+.maya {
+    width: 35px;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+    margin-right: 15px;
+}
+
+a:hover {
+    color: rgb(1, 192, 1);
+}
+
+.navegador {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+}
+
+.tamanio {
+    height: 30vw;
+    width: 100%;
+}
+
+.b1 {
+    background-color: rgb(1, 82, 1);
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    height: 25vw !important;
+    padding-top: 5vw;
+    margin-top: 20px;
+}
+
+.b2 {
+    display: flex;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+}
+
+button {
+    border-radius: 10px;
+    font-size: small;
+    padding: 3px;
+    width: 120px;
+    font-weight: bold;
+    background-color: white;
+    margin-left: 10px;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+}
+
+.redbutton {
+    color: white;
+    background-color: red;
+    border-color: white;
+}
+
+.cincuenta {
+    width: 50%;
+}
+
+.b1,
+.b2 {
+    margin-bottom: 20px;
+}
+
+.a-verde {
+    color: white;
+}
+
+.a-verde:hover {
+    color: blue;
+}

@@ -3,9 +3,12 @@
 
 <head>
     <style>
+        body {
+            background-color: black;
+        }
         .parallax {
             /*colocar imagen de fondo*/
-            background-image: url("img/oceano.jpg");
+            background-image: url("img/playa.jpg");
             /* fijar la posición de una imagen de fondo en relación con la ventana 
       del navegador */
             background-attachment: fixed;
@@ -17,6 +20,7 @@
             background-size: cover;
             /* La unidad de medida vh representa el porcentaje de la altura de la ventana gráfica. */
             height: 100vh;
+            opacity: 0.8;
         }
 
         .parallax2 {
@@ -32,17 +36,27 @@
             padding: 100px;
             text-align: center;
             color: white;
+            font-size: 30px;
         }
+        
 
         .content2 {
-            background-color: azure;
-            color: grey;
             padding: 50px;
             text-align: center;
+            color: black;
         }
 
         .parallax3 {
-            background-image: url("img/zona1.jpg");
+            background-image: url("img/meso.webp");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        }
+
+        .parallax4 {
+            background-image: url("img/titanic.jpeg");
             background-attachment: fixed;
             background-position: center;
             background-repeat: no-repeat;
@@ -53,7 +67,7 @@
 </head>
 
 <body>
-    <div class="parallax2">
+    <div class="parallax">
         <div class="content">
             <h1>¿QUÉ TAN PROFUNDO ES EL OCÉANO?</h1>
             <p>Desplázate hacia abajo para averiguarlo.</p>
@@ -64,14 +78,14 @@
         <h2>EPIPELÁGICO</h2>
     </div>
 
-    <div class="parallax">
+    <div class="parallax2">
         <div class="content">
             <p>Esta zona, conocida como la zona “iluminada por el sol”, comienza en la superficie del agua y se extiende
                 hasta la zona oscura, sin luz solar, donde la fotosíntesis cesa en la producción</p>
         </div>
     </div>
 
-    <div class="content">
+    <div class="content2">
         <h2>MESOPELÁGICA</h2>
     </div>
 
@@ -81,3 +95,16 @@
                 termina donde no hay luz; las profundidades de esta zona están entre aproximadamente 200 a 1000 metros
                 (~660 a 3300 pies) debajo de la superficie del océano.</p>
         </div>
+    </div>
+    <div class="content2">
+        <h2>BATIAL</h2>
+
+    </div>
+
+    <div class="parallax4">
+        <div class="content">
+            <p>es una región que presenta una elevada presión hidrostática y en la que las temperaturas son bajas y
+                descienden aún más al aumentar la profundidad. La oscuridad es casi completa a excepción de los
+                fantásticos organismos bioluminiscentes</p>
+        </div>
+    </div>
